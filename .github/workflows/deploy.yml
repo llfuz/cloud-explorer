@@ -47,4 +47,4 @@ jobs:
             docker rm -f cloud-badge || true
             docker run -d --pull always -p 80:80 -p 443:443 \
               -e SITE_ADDRESS=${{ secrets.SITE_ADDRESS }} \
-              --name cloud-explorer ${{ secrets.DOCKERHUB_USERNAME }}cloud-badge:v1
+              --name cloud-explorer ${{ secrets.DOCKERHUB_USERNAME }}/cloud-badge:v1
