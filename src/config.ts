@@ -21,7 +21,7 @@ export const CONFIG = {
   // true if you're running/deploying this from a cloud VM, false if it's
   // just running on your own laptop. Only changes the "My Laptop 💻" vs
   // "Alibaba Cloud ☁️" text on the badge - purely cosmetic.
-  isOnCloud: false,
+  isOnCloud: true,
 
   // true/false. Lets students flip the card and take a photo with their
   // front camera. Turn off if the device/browser running this has no
