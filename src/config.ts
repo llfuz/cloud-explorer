@@ -16,7 +16,7 @@ export const CONFIG = {
 
   // One short sentence, shown under "Fun fact" on the badge. Keep it to
   // a single line - long text will wrap and may get cramped.
-  funFact: "I love palm trees ",
+  funFact: "I love palm trees!",
 
   // true if you're running/deploying this from a cloud VM, false if it's
   // just running on your own laptop. Only changes the "My Laptop 💻" vs
